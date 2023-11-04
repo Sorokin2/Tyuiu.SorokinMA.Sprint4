@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5B654A92-ECCE-46CA-BB9D-D00EB02C534F}</ProjectGuid>
+    <ProjectGuid>{35568F63-9BB3-4FAD-9784-42C91D39AD8B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.SorokinMA.Sprint4.Task2._10</RootNamespace>
-    <AssemblyName>Tyuiu.SorokinMA.Sprint4.Task2.10</AssemblyName>
+    <RootNamespace>Tyuiu.SorokinMA.Sprint4.Task3.V14</RootNamespace>
+    <AssemblyName>Tyuiu.SorokinMA.Sprint4.Task3.V14</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.SorokinMA.Sprint4.Task3.V14.Lib\Tyuiu.SorokinMA.Sprint4.Task3.V14.Lib.csproj">
+      <Project>{4a2dd891-879e-4a82-bef8-4f3c69c81183}</Project>
+      <Name>Tyuiu.SorokinMA.Sprint4.Task3.V14.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
