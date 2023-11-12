@@ -47,7 +47,7 @@ namespace Tyuiu.SorokinMA.Sprint4.Task7.V10
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("Сумма нечётных элементов = " + ds.Calculate(a, b, c));
+            Console.WriteLine("Сумма нечётных чисел = " + ds.Calculate(a, b, c));
             Console.ReadKey();
 
         }
